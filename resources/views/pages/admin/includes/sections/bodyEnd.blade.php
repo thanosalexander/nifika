@@ -1,0 +1,2 @@
+@section('bodyEnd')
+@endsection

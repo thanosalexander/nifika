@@ -1,0 +1,3 @@
+@section('afterBodyStart')
+
+@endsection

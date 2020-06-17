@@ -1,0 +1,435 @@
+.nopadding {padding: 0 !important;}
+.nopaddingLeft {padding-left: 0 !important;}
+.nomargin {margin: 0 !important;}
+.nomarginVertical {margin-top: 0 !important; margin-bottom: 0 !important;}
+.nomarginHorizontal {margin-left: 0 !important; margin-right: 0 !important;}
+.noborder {border: none !important;}
+.noborderRadius{border-radius: 0 !important;}
+.marginBottom15{margin-bottom: 15px;}
+
+a{
+    cursor: pointer;
+}
+.red{
+    color: #d9534f;
+}
+.green{
+    color: #5cb85c;
+}
+.inlineBlock{
+    display: inline-block;
+    vertical-align: top;
+}
+/* OVERLAY */
+body{
+    position: relative;
+}
+#loadingOverlay{
+    background-color: white;
+    opacity: 0.8;
+    z-index: 9999; 
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+}
+#loadingOverlay .graphic{
+    top: 40%;
+    left: 45%;
+    position: fixed;
+    font-size: 50px;
+}
+/* END OVERLAY */
+/* NAVBAR */
+#headerMenu.navbar{
+    border: none;
+}
+#headerMenu .navbar-header .icon-bar{
+    background-color: #FFF;
+}
+#headerMenu .navbar-header .navbar-toggle{
+    background-color: transparent; 
+}
+#headerMenu .navbar-header .navbar-toggle:hover{
+    background-color: #bbbbca; 
+}
+#headerMenu .navbar-collapse.navbar-ex1-collapse.collapsing ul,
+#headerMenu .navbar-collapse.navbar-ex1-collapse.in ul{
+    background-color: #eee;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#headerMenu .navbar-collapse.navbar-ex1-collapse.collapsing ul li:hover,
+#headerMenu .navbar-collapse.navbar-ex1-collapse.in ul li:hover{
+    background-color: #bbbbca;
+}
+#headerMenu .navbar-collapse.navbar-ex1-collapse ul li a{
+    color: #000;
+}
+/* END NAVBAR */
+.filterRow .btn-group {
+    margin-right: 20px;
+}
+
+/*.dataTable{
+    width: 100%;
+}*/
+table td .ingredient{
+    padding-left: 1.5em;
+}
+table td .fa.fa-print,
+table td .fa.fa-trash{
+    font-size:20px;
+    cursor:pointer; 
+    margin:0px 20%;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.filterRow .btn.btn-default:not(.active):focus {
+    background-color: initial;
+}
+
+.stateTableField.btn.btn-success.focus,
+.stateTableField.btn.btn-success:focus
+{
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+#notificationsTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    cursor: default;
+}
+
+#userMenu>a{
+    cursor: default;
+}
+#adminLocaleList,
+#modelLocaleList {
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+}
+#homeLink{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#reportrange .pickedRange,
+#reportrange .input-group-addon{
+    cursor: pointer;
+}
+
+#reportrange{
+    width: 280px;
+    display: inline-block;
+    margin: 0 20px 10px 0;
+    vertical-align: middle;
+}
+#orderStateFilterOptions{
+    display: inline-block;
+    margin: 0 20px 10px 0;
+}
+#orderStatusFilterOptions{
+    display: inline-block;
+    margin: 0 20px 10px 0;
+}
+
+.calculationPrice,
+.calculationAmount{
+    display: inline-block;
+    min-width: 60px;
+}
+.calculationPrice.last{
+    border-bottom: 1px solid #000000;
+}
+.orderTotalAmountWrapper{
+    cursor: pointer;
+}
+.orderCalculationsContainer{
+    position: relative;
+}
+.orderCalculationsWrapper{
+    position: absolute;
+    width: 400px;
+    z-index: 9999999;
+}
+
+.orderCalculations{
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+}
+
+#storeListFilterOptions #filterStoreId{
+    display: inline-block;
+}
+#storeListFilterOptions {
+    display: inline-block;
+    margin: 0 20px 10px 0;
+    vertical-align: middle;
+}
+#storeListFilterOptions .input-group{
+    width: 250px;
+}
+#headerRow{
+    margin-bottom: 20px;
+}
+#headerRow .btn.add{
+    margin-top: 10px;
+}
+#headerPageTitle{
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.spacer{
+    -all-box-flex: 10;
+}
+#page-wrapper .treeList.ui-widget-content{
+    background: none;
+}
+#productRulesMultiRecordsTable .form-group{
+    /*margin-bottom: 0;*/
+}
+.cmb-type-multi-records .ui-sortable-handle{
+    font-size: 18px;
+    margin: 8px 0;
+}
+.cmb-type-multi-records .dump-record{
+    display: none;
+}
+
+.cmb-type-multi-records .panel-heading .ui-sortable-handle {
+    cursor: move;
+}
+
+.cmb-type-multi-records .recordsContainer>div.placeholder {
+    position: relative;
+    /** More li styles **/
+}
+.cmb-type-multi-records .recordsContainer>div.placeholder:before {
+    position: absolute;
+    /** Define arrowhead **/
+}
+
+.toogleRecordsArrow{
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.toogleRecordsArrow i::before{
+    content: "\f077"; /* chevron-down*/
+}
+
+.toogleRecordsArrow.collapsed i::before{
+    content: "\f078"; /* chevron-up*/
+}
+
+.toogleRecordsHeader{
+    cursor: pointer;
+}
+
+.toogleRecordsHeader i::before{
+    font-size: 18px;
+    content: "\f077"; /* chevron-down*/
+}
+
+.toogleRecordsHeader.collapsed i::before{
+    content: "\f078"; /* chevron-up*/
+}
+
+.cmb-type-multi-records .recordRow .form-group{
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.filePreviewWrapper {
+    height: 200px;
+}
+.filePreview img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.cmb-type-multi-records .recordRow .form-check{
+    vertical-align: text-bottom;
+}
+
+form.hasJsValidator .form-group.has-success .help-block{
+    display: none;
+}
+form.hasJsValidator input.elementShadow[type="text"] {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: none;
+    position: absolute;
+}
+
+ .elementShadowWrapper {
+    margin: 0;
+}
+
+.minimize,
+.switchButton input[type="checkbox"]{
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    visibility: hidden !important;
+}
+
+.switchButton .toggle.btn{
+    margin-right: 10px;
+}
+/* SETTINGS PAGE */
+#settingPage .panel{
+    border-radius: 0;
+    color: #333;
+}
+#storeDeliveryMap #map {
+    height: 500px;
+}
+
+.facebookRssCategoriesMultiselect {
+    min-height: 300px;
+}
+/* END SETTINGS PAGE */
+
+#imagesMultiRecordsTable .ui-state-default{
+    font-weight: normal;
+}
+#imagesMultiRecordsTable .recordRow .fileFieldWrapper{
+    height: 200px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+@media(min-width:768px) {
+    #imagesMultiRecordsTable .panel-group .panel.col-md-6,
+    #imagesMultiRecordsTable .panel-group .panel.col-sm-6{
+        width: 47.5%;
+        margin: 1%;
+    }
+}
+
+@media(min-width:1200px) {
+    #imagesMultiRecordsTable .panel-group .panel.col-lg-4,
+    #imagesMultiRecordsTable .panel-group .panel.col-lg-4{
+        width: 32%;
+        margin: 0.5%;
+    }
+}
+
+#imagesMultiRecordsTable .panel-group .panel.dump-record{
+    margin: 0;
+}
+
+#productCategoriesMultiRecordsTable textarea {
+    resize: vertical;
+    min-height: 40px;
+    max-height: 200px;
+}
+/*** ACTION BAR ***/
+#actionButtonBarContainer {
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    position: fixed;
+    text-align: right;
+    z-index: 100;
+}
+#actionButtonBar {
+    box-sizing: border-box;
+    padding-right: 3%;
+    background-color: rgba(95, 141, 211, 0.5);
+    text-align: right;
+}
+#actionButtonBar > *{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2px 6px;
+}
+#actionButtonBar .actionButton {
+    margin: 3px 6px;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #EEEEEE;
+    color: #333333;
+    cursor: pointer;
+}
+#actionButtonBar label{
+    color: #333333;
+    font-weight: normal;
+}
+#actionButtonBar select{
+    border-radius: 0;
+}
+#actionButtonBar .actionButton:hover{
+    background-color: #BBBBCA;
+}
+#actionButtonBar .actionButton.bgDefault {
+    background-color: #EEEEEE;
+    color: #333333;
+}
+#actionButtonBar .actionButton.bgDanger {
+    background-color: #D9534F;
+    color: #ffffff;
+}
+#actionButtonBar .actionButton.bgSuccess {
+    background-color: #5CB85C;
+    color: #ffffff;
+}
+#page-wrapper {
+    padding-top: 40px;
+}
+
+@media(min-width:768px) {
+    #actionButtonBarContainer {
+        width: calc(100% - 225px);
+        /* padding-top: 2px; */
+        /* padding-left: 2px; */
+    }
+    #page-wrapper {
+        padding-top: 40px;
+    }
+}
+/*** END ACTION BAR ***/
+
+/** ORDERS LIST **/   
+#orderDatatableWrapper{
+    min-width: 700px;
+}
+/** also used at printing **/
+#orderDatatableWrapper ul.orderProducts{
+    list-style-type: none;
+    padding-left: 0;
+}
+#orderDatatableWrapper ul.orderProducts ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+/** END ORDERS LIST **/
+
+#sliderImagesMultiRecordsTable textarea {
+    resize: vertical;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.priceField{
+    max-width: 100px;
+    display: inline-block !important;
+}

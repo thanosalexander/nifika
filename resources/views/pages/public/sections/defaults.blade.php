@@ -1,0 +1,6 @@
+@include("{$viewBasePath}.sections.head")
+@include("{$viewBasePath}.sections.afterBodyStart")
+@include("{$viewBasePath}.sections.header")
+@include("{$viewBasePath}.sections.contentTop")
+@include("{$viewBasePath}.sections.footer")
+@include("{$viewBasePath}.sections.beforeBodyEnd")
